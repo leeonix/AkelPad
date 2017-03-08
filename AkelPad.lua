@@ -1,6 +1,5 @@
 
 local language_table = dofile('scripts/languages.lua')
-local plugin_table   = dofile('scripts/plugins.lua')
 
 newaction {
     trigger = 'lang_list',
@@ -22,8 +21,7 @@ newoption {
 newoption {
     trigger     = 'lang_name',
     value       = 'language',
-    default     = 'English',
---    default     = 'Chinese (Simplified)',
+    default     = 'Chinese (Simplified)',
     description = 'Set Language Resource File Name',
 }
 

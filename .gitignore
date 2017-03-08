@@ -31,3 +31,11 @@
 # Debug files
 *.dSYM/
 *.su
+
+# AkelPad
+bin
+build
+lib
+obj
+
+Scripts.tlb
