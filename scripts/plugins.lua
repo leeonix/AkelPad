@@ -1,0 +1,27 @@
+
+return {
+    'Clipboard',
+    'Coder',
+    'ContextMenu',
+    'Exit',
+    'Explorer',
+    'Fonts',
+    'Format',
+    'FullScreen',
+    'HexSel',
+    'Hotkeys',
+    'LineBoard',
+    'Log',
+    'Macros',
+    'MinimizeToTray',
+    'RecentFiles',
+    'SaveFile',
+    'Scripts',
+    'Scroll',
+    'Sessions',
+    'Sounds',
+    'SpecialChar',
+    'Stats',
+    'ToolBar',
+}
+
