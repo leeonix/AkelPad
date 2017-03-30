@@ -73,13 +73,12 @@ function setup_basic_config()
 end -- end function
 
 workspace 'AkelPad'
-    targetdir 'bin'
     setup_basic_config()
 
 project 'AkelPad'
     kind 'WindowedApp'
     entrypoint '_WinMain'
-    targetdir 'bin/AkelFiles'
+    targetdir 'bin'
 
     files {
         'AkelPad/*.h',
@@ -112,6 +111,7 @@ project 'AkelPad'
 project 'AkelAdmin'
     kind 'WindowedApp'
     entrypoint '_WinMain'
+    targetdir 'bin/AkelFiles'
 
     files {
         'AkelAdmin/*.c',
